@@ -17,7 +17,7 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarNav" style={{ marginRight: '110px',  color:'blue' }} >
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item">
-                                <Link className="nav-link nav-link-custom" aria-current="page" to="/home">HOME</Link>
+                                <Link className="nav-link nav-link-custom" aria-current="page" to="/">HOME</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link nav-link-custom" to="/about">ABOUTUS</Link>
@@ -52,7 +52,7 @@ export default function Navbar() {
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link nav-link-custom" aria-disabled="true" to="blog">BLOG</Link>
+                                <Link className="nav-link nav-link-custom" aria-disabled="true" to="/blog">BLOG</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link nav-link-custom" aria-disabled="true" to="contact">CONTACT</Link>
