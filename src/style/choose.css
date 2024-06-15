@@ -1,0 +1,65 @@
+.grid-containerc2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* Three columns */
+    /* gap: 10px;  */
+    /* background-color: #ffcb36; */
+
+
+}
+.grid-containerc {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 10px;
+    /* background-color: #2196F3; */
+    padding: 10px;
+    width: 100%;
+    height: 180px;
+    align-items: center;
+    text-align: center;
+   
+
+
+}
+.grid-containerc h1 {
+    font-weight: 700;
+    color:#003769 ;
+    font-family: fangsong;
+
+}
+
+.grid-containerc span {
+    font-weight: 700;
+    color: #ffcb36;
+
+}
+
+
+.grid-itemc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #ccc;   */
+    padding: 20px;
+    /* Optional: padding inside grid items */
+}
+.famfig {
+    border-radius: 40px 0px 0px 0px;
+ 
+    
+}
+.f{
+    background-color: #ededed;
+    border-radius: 0px 0px 40px 0px;
+    height: 95px;
+    text-align: center;
+}
+.f:hover{
+    background-color: #ffcb36;
+}
+.f h2{
+    font-size: 22px;
+}
+.f h4{
+    font-size: 14px;
+}

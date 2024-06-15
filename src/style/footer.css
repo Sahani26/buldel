@@ -1,0 +1,135 @@
+
+/* ******Get in Touch********* */
+
+.GetinTouch{
+    display: grid;
+    /* justify-content: start; */
+    grid-template-columns: 1fr;
+    gap: 10px;
+    /* background-color: #f1d6d6; */
+    /* border-radius: 10px; */
+    height: 100%;
+    margin-top: 85px;
+   
+}
+.Touch{
+    width: 1130px;
+    background-color: #ffcb36;
+    height: 125px;
+    border-radius: 80px;
+    margin: auto;
+    display: grid;
+    /* justify-content: start; */
+    grid-template-columns: 1fr 1fr ;
+}
+.gettouch h1{
+    font-size: 24px;
+    font-weight: 400;
+    /* text-align: center; */
+    color: #003769;
+   
+}
+
+.gettouch span{
+    
+font-size: 40px;
+font-weight: 700;
+color: #003769;
+
+}
+
+.gettouch{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.bookappoint button{
+background-color: #FEA12D;
+}
+.callnumber{
+    margin-left: 100px;
+    margin-top: 29px;
+}
+.address{
+    width: 1300px;
+    /* background-color: #0173BC; */
+    height: 250px;
+    border-radius: 15px;
+    margin: auto;
+    display: grid;
+    /* justify-content: start; */
+    grid-template-columns: 270px 1fr 1fr 1fr 1fr;  
+    color: #FFFFFF;
+    grid-gap:70px;
+}
+.add img{
+    width: 255px;
+}
+.map img{
+    height: 177px;
+    width: 285px;
+}
+.quicklink{
+    /* margin-left: 121px; */
+    color: #FFFFFF;
+}
+
+ .hrtag{
+    width: 90%;
+    margin-left: 64px;
+    color:red;
+    height: 2px;
+ }
+ .copyright{
+    width: 1300px;
+     /* height: 20px; */
+ 
+    margin: auto;
+    display: grid;
+    /* justify-content: start; */
+    grid-template-columns: 322px 650px 322px; 
+    color: #FFFFFF;
+ }
+.copy2 p{
+    text-align: end;
+    color: #FFFFFF;
+}
+
+.GetinTouch {
+ 
+    /* border-top-left-radius: 196% 161%;
+    border-top-right-radius: 196% 161%; */
+    /* position: absolute; */
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    background-color: #0D1726;
+    height: 80%;
+}
+.logo{
+    margin-left: 135px;
+}
+.search{
+    margin-top: -60px;
+}
+.form-control{
+
+    margin-right: -8.75rem !important;
+    height: 74px;
+    width: 80%;
+    border-radius: 45px;
+}
+.btn-outline-success{
+    border-radius: 44px;
+    background-color: #003769;
+    width: 152px;
+    color: white;
+}
+.subscribe{
+    margin-top: 27px;
+}
+.search-nav a{
+    font-size: 12px;
+}
+.search-nav a:hover{
+    color: red;
+}

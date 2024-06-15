@@ -1,0 +1,49 @@
+.grid-containerf {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+ 
+    height: 100%;
+    margin-top: 85px;
+
+
+
+}
+.grid-containerf > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+.item1 {
+     padding: 20px;
+ }
+ .head{
+    text-align: justify;
+ }
+.head h1{
+    font-size: 22px;
+    color: #003769;
+    text-align: justify;
+}
+.head h2{
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+}
+.fet-nav a {
+    color: black;
+}
+.qlinkfet a{
+    color: red;
+}
+.qlinkfet{
+    text-align: justify;
+    font-size: 11px;
+    line-height: 6px;
+}
+
+.item3{
+    margin-left: 90px;
+}

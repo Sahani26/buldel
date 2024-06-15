@@ -1,0 +1,186 @@
+.homepage {
+    width: 100%;
+    height: 667px;
+    position: relative;
+    overflow: hidden;
+}
+
+.homepage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../asset/banner-bg.png') no-repeat center center/cover;
+    opacity: 1.0;
+    z-index: -1;
+}
+
+.gridtext {
+    color: red;
+}
+
+.maincon {
+    text-align: center;
+    width: 66px;
+    height: 500px;
+}
+
+.sec {
+    background-color: #ffcb36;
+    height: 140px;
+    font-family: roboto, sans-serif !important;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.sec hr {
+    background-color: #C80000;
+    /* color: #C80000; */
+    transform: rotate(90deg);
+    position: absolute;
+    width: 81px;
+    height: 2px;
+    left: 396px;
+    border: 2px;
+    margin-top: -77px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Three columns */
+    /* gap: 10px;  */
+    background-color: #ffcb36;
+
+
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 10px;
+    /* background-color: #2196F3; */
+    padding: 10px;
+    width: 100%;
+    height: 550px;
+    align-items: center;
+
+
+}
+
+.grid-container1 h1 {
+    font-weight: 700;
+    color: #fff;
+    font-family: fangsong;
+
+}
+
+.grid-container1 span {
+    font-weight: 700;
+    color: #ffcb36;
+
+}
+
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #ccc;   */
+    padding: 20px;
+    /* Optional: padding inside grid items */
+}
+
+
+
+.grid-text {
+    font-family: roboto, sans-serif !important;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.vertical-line {
+    position: absolute;
+    height: 14%;
+    top: 550px;
+    border-left: 4px solid #ce0404;
+    margin-left: 486px;
+}
+
+/* Adjust button width and padding as needed */
+.btn-arrow {
+    position: relative;
+    width: 195px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #003769;
+    margin-left: -170px;
+}
+
+
+
+/* Optional: Adjust button color and hover effects */
+.btn-arrow:hover {
+    color: #003769;
+    background-color: #fff;
+    /* Bootstrap's primary color */
+    border-color: #defa0a;
+}
+
+.btn-arrow:hover i {
+    color: #fff;
+}
+
+/* ****************** */
+.user {
+    width: 300px;
+    margin-left: 35px;
+}
+
+ 
+
+.userbtn:hover {
+    background-position: left bottom;
+}
+
+.userinfo {
+    color: #fff;
+}
+
+/* ***************** */
+
+
+.button {
+    border: 1px solid #ffcb36;
+    border-radius: 10px;
+    width: 155px;
+    height: 50px;
+    display: block;
+
+    background: linear-gradient(to right, rgb(255 203 54) 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.button:hover {
+    background-position: left bottom;
+}
+
+.text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 45px;
+    color: black;
+    transition: all .1s ease-out;
+    display: block;
+}
+
+.text:hover {
+
+    color: white;
+}
