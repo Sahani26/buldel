@@ -21,13 +21,13 @@ import Featured from './component/Featured';
         <Navbar />
         <Routes>
           <Route path="/footer" element={<Footer />} />
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/about" element={<AboutUs />} />
 
           <Route path="/faq" element={<Faq />} />
-          <Route path="/" element={<Choose />} />
+          <Route path="/choose" element={<Choose />} />
           <Route path="/service" element={<Services />} />
           
           <Route path="/off" element={<SpecialOffers />} />
